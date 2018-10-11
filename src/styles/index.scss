@@ -6,3 +6,18 @@
     color: blue;
   }
 }
+
+.counter {
+  &__button {
+    border: none;
+    background-color: gray;
+    
+    &--increment {
+      background-color: green;
+    }
+
+    &--decrement {
+      background-color: red;
+    }
+  }
+}
